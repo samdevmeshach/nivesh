@@ -1,0 +1,38 @@
+body{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.login{
+    .col:nth-child(1){
+        min-height:40rem;
+        background-color: blue;
+        div{
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 25%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+            p{
+                color: white;
+            }
+            button{
+                background-color: transparent;
+                border-color: white;
+                border-radius: 20px;
+                padding: 10px 40px;
+                color: white;
+            }
+        }
+    }
+    .col:nth-child(2){
+        .cont{
+            margin: 5%;
+            h3{
+                color: blue;
+            }
+        }
+    }
+}
